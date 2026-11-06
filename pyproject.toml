@@ -1,0 +1,21 @@
+[project]
+name = "narrative-playlist"
+version = "0.1.0"
+description = "좋아하는 노래로 기승전결이 있는 플레이리스트를 만든다"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "ytmusicapi>=1.10",
+  "anthropic>=0.40",
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "requests>=2.31",
+  "PyYAML>=6.0",
+  "python-dotenv>=1.0",
+]
+
+[project.scripts]
+narrative-playlist = "narrative_playlist.__main__:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

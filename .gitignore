@@ -1,0 +1,13 @@
+# 인증 정보 — 절대 커밋 금지
+browser.json
+oauth.json
+.env
+
+# 가사·분석 캐시와 결과물 (가사 저작권)
+.cache/
+output/
+
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/

@@ -1,0 +1,86 @@
+# 검정치마 — 작가 의도 파일
+# 여기 적은 내용은 LLM 추정보다 우선한다. 블로그·인터뷰·라이너노트에서 확인한 것만 적자.
+#
+# stage 는 만남 / 설렘 / 권태 / 갈등 / 이별 / 회상 중 하나
+# where 는 그 단계 안에서의 위치: early / mid / late
+
+artist: 검정치마
+artist_aliases: [The Black Skirts, "검정치마 (The Black Skirts)"]
+
+source_notes: >
+  정규 3~5집은 '사랑 3부작'이다. TEAM BABY(2017)는 보편적인 사랑,
+  THIRSTY(2019)는 부정적이고 왜곡된 방향으로 흐르는 사랑,
+  TEEN TROUBLES(2022)는 사랑의 종착점이 젊은 날의 나를 향하는 회고를 다룬다.
+
+albums:
+  - name: TEAM BABY
+    aliases: [Team Baby, "3집 Part.1 Team Baby"]
+    stage_prior: {만남: 0.6, 설렘: 1.0, 권태: 0.2}
+    note: 사랑 3부작 1부. 보편적인 사랑.
+    # track_order_matters: true 로 바꾸면 앨범 순서가 서사 순서로 쓰인다
+    tracklist:
+      - 난 아니에요 | That's Not Me
+      - Big Love
+      - Diamond
+      - Love Is All
+      - 내 고향 서울엔 | In My City of Seoul
+      - 폭죽과 풍선들 | Confetti and Balloons
+      - 한시 오분 | 1:05
+      - 나랑 아니면 | Who Do You Love
+      - 혜야 | Heya
+      - Everything
+
+  - name: THIRSTY
+    aliases: [Thirsty]
+    stage_prior: {권태: 0.4, 갈등: 1.0, 이별: 0.8}
+    note: 사랑 3부작 2부. 부정적이고 왜곡된 방향으로 흐르는 사랑.
+    track_order_matters: true
+    tracklist:
+      - 틀린질문 | Wrong Question
+      - Lester Burnham
+      - 섬 | Island | Queen of Diamonds
+      - 상수역 | Sangsu Station
+      - 광견일기 | Mad Dog Diary
+      - Bollywood
+      - 빨간나를 | Holiday
+      - Put Me on Drugs
+      - 하와이 검은 모래 | Hawaiian Black Sand
+      - 맑고 묽게 | Thinner Than Water
+      - 그늘은 그림자로 | My Shadow
+      - 피와 갈증 | Blood and Thirst | King of Hurts
+
+  - name: TEEN TROUBLES
+    aliases: [Teen Troubles]
+    stage_prior: {회상: 1.0, 이별: 0.3}
+    note: 사랑 3부작 3부. 사랑의 종착점이 젊은 날의 나를 향하는 회고. 1999년 여름 열일곱의 시점.
+    tracklist:
+      - Flying Bobs
+      - 불세례 | Baptized in Fire
+      - 어린 양 | My Little Lambs
+      - Sunday Girl
+      - Friends in Bed
+      - 매미들 | Cicadas
+      - Garden State Dreamers
+      - 따라갈래 | Follow You
+      - Jersey Girl
+      - Love You the Same
+      - Powder Blue
+      - Electra
+      - 미는 남자 | Min
+      - Jeff and Alana
+      - Ling Ling
+      - John Fry
+      - 99%
+      - Our Own Summer
+
+songs:
+  - title: Love is all
+    aliases: [Love Is All]
+    stage: 설렘
+    note: 사랑에 빠져 있는 경쾌한 노래. 서사상 사랑의 한가운데.
+
+  - title: 피와 갈증
+    aliases: [Blood and Thirst, King of Hurts]
+    stage: 이별
+    where: late
+    note: 이별의 막바지에 놓이는 곡. THIRSTY 의 마지막 트랙이자 가장 긴 곡.

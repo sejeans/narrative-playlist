@@ -1,0 +1,24 @@
+# 데모용 가상 밴드의 작가 의도 파일 (canon/the_black_skirts.yaml 과 같은 형식)
+artist: 새벽정류장
+source_notes: 정규 1~3집은 사랑 3부작. 여름 필름(사랑) → 검은 물(어긋난 사랑) → 열일곱(회고).
+
+albums:
+  - name: 여름 필름
+    stage_prior: {만남: 0.6, 설렘: 1.0}
+    note: 3부작 1부. 보편적인 사랑.
+  - name: 검은 물
+    stage_prior: {갈등: 1.0, 이별: 0.8}
+    note: 3부작 2부. 어긋나고 왜곡되는 사랑.
+    track_order_matters: true
+    tracklist: [틀린 질문, 미친개 일기, 검은 모래, 마지막 갈증]
+  - name: 열일곱
+    stage_prior: {회상: 1.0}
+
+songs:
+  - title: 모든 게 사랑
+    stage: 설렘
+    note: 사랑에 빠진 경쾌한 노래.
+  - title: 마지막 갈증
+    stage: 이별
+    where: late
+    note: 이별의 막바지. 2부의 마지막 트랙.

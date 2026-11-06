@@ -1,0 +1,561 @@
+[
+ {
+  "track": {
+   "video_id": "d01",
+   "title": "정류장에서",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "여름 필름",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d01",
+   "stage_fit": {
+    "만남": 0.9,
+    "설렘": 0.4,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.4,
+   "arousal": 0.35,
+   "tension": 0.1,
+   "imagery": [
+    "정류장",
+    "새벽"
+   ],
+   "perspective": "",
+   "summary": "막차를 기다리다 처음 마주친 사람에 대한 조심스러운 호기심.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d02",
+   "title": "모든 게 사랑",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "여름 필름",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d02",
+   "stage_fit": {
+    "만남": 0.5,
+    "설렘": 0.7,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.85,
+   "arousal": 0.75,
+   "tension": 0.05,
+   "imagery": [
+    "여름",
+    "햇빛"
+   ],
+   "perspective": "",
+   "summary": "세상이 다 사랑처럼 보이는 들뜬 고백.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d03",
+   "title": "네 방 창문",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "여름 필름",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d03",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.8,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.7,
+   "arousal": 0.5,
+   "tension": 0.1,
+   "imagery": [
+    "방",
+    "창문",
+    "밤"
+   ],
+   "perspective": "",
+   "summary": "연인의 방에서 보내는 느릿한 밤의 행복.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d04",
+   "title": "수영장",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "여름 필름",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d04",
+   "stage_fit": {
+    "만남": 0.3,
+    "설렘": 0.6,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.6,
+   "arousal": 0.65,
+   "tension": 0.1,
+   "imagery": [
+    "여름",
+    "물"
+   ],
+   "perspective": "",
+   "summary": "둘만의 여름날을 장난스럽게 그린다.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d05",
+   "title": "하품",
+   "artists": [
+    "오후의집"
+   ],
+   "album": "일상",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d05",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.8,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.1,
+   "arousal": 0.2,
+   "tension": 0.35,
+   "imagery": [
+    "방",
+    "오후"
+   ],
+   "perspective": "",
+   "summary": "익숙해진 관계의 나른함과 미묘한 거리감.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d06",
+   "title": "같은 대답",
+   "artists": [
+    "오후의집"
+   ],
+   "album": "일상",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d06",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.7,
+    "갈등": 0.4,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": -0.1,
+   "arousal": 0.3,
+   "tension": 0.5,
+   "imagery": [
+    "식탁"
+   ],
+   "perspective": "",
+   "summary": "매번 같은 대답만 돌아오는 대화에 지쳐간다.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d07",
+   "title": "틀린 질문",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "검은 물",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d07",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.4,
+    "갈등": 0.8,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": -0.3,
+   "arousal": 0.6,
+   "tension": 0.75,
+   "imagery": [
+    "밤",
+    "물"
+   ],
+   "perspective": "",
+   "summary": "서로를 시험하는 질문들로 관계가 일그러지기 시작한다.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d08",
+   "title": "미친개 일기",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "검은 물",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d08",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.9,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": -0.5,
+   "arousal": 0.9,
+   "tension": 0.9,
+   "imagery": [
+    "밤",
+    "거리"
+   ],
+   "perspective": "",
+   "summary": "질투와 집착이 폭주하는 거친 독백.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d09",
+   "title": "검은 모래",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "검은 물",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d09",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.6,
+    "이별": 0.6,
+    "회상": 0.05
+   },
+   "valence": -0.6,
+   "arousal": 0.5,
+   "tension": 0.6,
+   "imagery": [
+    "바다",
+    "모래"
+   ],
+   "perspective": "",
+   "summary": "함께 간 바다가 이제는 어둡게만 보인다.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d10",
+   "title": "마지막 갈증",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "검은 물",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d10",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.9,
+    "이별": 0.5,
+    "회상": 0.05
+   },
+   "valence": -0.8,
+   "arousal": 0.8,
+   "tension": 0.85,
+   "imagery": [
+    "피",
+    "물",
+    "밤"
+   ],
+   "perspective": "",
+   "summary": "끝까지 채워지지 않는 갈증과 상처를 길게 토해낸다.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d11",
+   "title": "문 닫는 소리",
+   "artists": [
+    "오후의집"
+   ],
+   "album": "일상",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d11",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.9,
+    "회상": 0.05
+   },
+   "valence": -0.7,
+   "arousal": 0.3,
+   "tension": 0.4,
+   "imagery": [
+    "문",
+    "방"
+   ],
+   "perspective": "",
+   "summary": "마지막으로 떠나는 뒷모습과 남겨진 정적.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d12",
+   "title": "빈 칫솔",
+   "artists": [
+    "월요일밴드"
+   ],
+   "album": "단편",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d12",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.8,
+    "회상": 0.4
+   },
+   "valence": -0.6,
+   "arousal": 0.2,
+   "tension": 0.3,
+   "imagery": [
+    "욕실",
+    "아침"
+   ],
+   "perspective": "",
+   "summary": "남겨진 물건들로 부재를 실감하는 아침.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d13",
+   "title": "열일곱 여름",
+   "artists": [
+    "새벽정류장"
+   ],
+   "album": "열일곱",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d13",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.9
+   },
+   "valence": 0.0,
+   "arousal": 0.3,
+   "tension": 0.1,
+   "imagery": [
+    "여름",
+    "교복"
+   ],
+   "perspective": "",
+   "summary": "그 시절의 나를 돌아보며 사랑을 다시 정리한다.",
+   "confidence": 0.8,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d14",
+   "title": "오래된 사진",
+   "artists": [
+    "월요일밴드"
+   ],
+   "album": "단편",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d14",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.8
+   },
+   "valence": -0.2,
+   "arousal": 0.2,
+   "tension": 0.15,
+   "imagery": [
+    "사진",
+    "방"
+   ],
+   "perspective": "",
+   "summary": "사진 속 웃는 얼굴을 담담하게 바라본다.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d15",
+   "title": "첫 통화",
+   "artists": [
+    "월요일밴드"
+   ],
+   "album": "단편",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d15",
+   "stage_fit": {
+    "만남": 0.8,
+    "설렘": 0.5,
+    "권태": 0.05,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.5,
+   "arousal": 0.4,
+   "tension": 0.05,
+   "imagery": [
+    "전화",
+    "밤"
+   ],
+   "perspective": "",
+   "summary": "새벽까지 이어진 첫 통화의 설렘.",
+   "confidence": 0.7,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d16",
+   "title": "소음",
+   "artists": [
+    "오후의집"
+   ],
+   "album": "일상",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d16",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.05,
+    "권태": 0.05,
+    "갈등": 0.7,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": -0.4,
+   "arousal": 0.85,
+   "tension": 0.8,
+   "imagery": [
+    "도시",
+    "소음"
+   ],
+   "perspective": "",
+   "summary": "싸움이 끝나지 않는 밤의 날 선 공기.",
+   "confidence": 0.6,
+   "has_lyrics": true
+  }
+ },
+ {
+  "track": {
+   "video_id": "d17",
+   "title": "잘 모르는 노래",
+   "artists": [
+    "무명"
+   ],
+   "album": "미상",
+   "duration_seconds": 200
+  },
+  "analysis": {
+   "video_id": "d17",
+   "stage_fit": {
+    "만남": 0.05,
+    "설렘": 0.3,
+    "권태": 0.3,
+    "갈등": 0.05,
+    "이별": 0.05,
+    "회상": 0.05
+   },
+   "valence": 0.2,
+   "arousal": 0.5,
+   "tension": 0.2,
+   "imagery": [],
+   "perspective": "",
+   "summary": "정보가 부족해 추정만 가능한 곡.",
+   "confidence": 0.2,
+   "has_lyrics": false
+  }
+ }
+]
